@@ -1,8 +1,15 @@
+def ft_len(string):
+    count = 0
+    for i in string:
+        count += 1
+    return count
+
+
 def ft_join(lst, sep=' '):
-    result_string = str()
-    
-    for i in lst[:-1]:
-        result_string += str(i) + sep
-    result_string += str(lst[-1])
-    
-    return result_string
+    res = ''
+    for i in range(ft_len(lst)):
+        if i == ft_len(lst) - 1:
+            res += lst[i]
+        else:
+            res += lst[i] + sep
+    return res
