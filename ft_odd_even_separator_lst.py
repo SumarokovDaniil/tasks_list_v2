@@ -6,4 +6,4 @@ def ft_odd_even_separator_lst(lst):
             even.append(i)
         else:
             odd.append(i)
-    return even, odd
+    return [even, odd]
