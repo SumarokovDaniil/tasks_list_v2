@@ -9,7 +9,7 @@ def ft_join(lst, sep=''):
     string = str()
     if sep == '':
         for i in lst:
-            string += str(i) + sep
+            string += str(i) + ' '
         return string
     for i in lst:
         string += str(i) + sep
