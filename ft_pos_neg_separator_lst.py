@@ -9,4 +9,4 @@ def ft_pos_neg_separator_lst(lst):
             negative.append(i)
         else:
             zero.append(i)
-    return negative, zero, positive
+    return [negative, zero, positive]
