@@ -19,11 +19,12 @@ def ft_odd_even_analysis_lst(lst):
             if i < min_odd_number:
                 min_odd_number = i
     print('Анализ списка:')
-    print(f'Количество четных чисел: {count_even},      \
-    Количество нечетных чисел: {count_odd},', end='\n')
-    print(f'Максимальная четная цифра: {max_even_number},\
-           Максимальная нечетная цифра: {max_odd_number},', end='\n')
-    print(f'Минимальная четная цифра: {min_even_number},\
-            Минимальная нечетная цифра: {min_odd_number},', end='\n')
-    print(f'Сумма четных чисел: {summary_even},\
-         Сумма нечетных чисел: {summary_odd},', end='\n')
+    print(f'Количество четных чисел: {count_even},\t\t', end='')
+    print(f'Количество нечетных чисел: {count_odd},', end='\n')
+    print(f'Максимальная четная цифра: {max_even_number},\t', end='\t')
+    print(f'Максимальная нечетная цифра: {max_odd_number},', end='\n')
+    print(f'Минимальная четная цифра: {min_even_number},\t', end='\t')
+    print(f'Минимальная нечетная цифра: {min_odd_number},', end='\n')
+    print(f'Сумма четных чисел: {summary_even},\t', end='\t')
+    print(f'Сумма нечетных чисел: {summary_odd},', end='\n')
+    
